@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/vitto/Desktop/strategoProject/src/it/unimol/stratego</OriginalElement>
+  <nodes>
+    <node x="-427.0" y="152.0">it.unimol.stratego.app.pedine.Colonnello</node>
+    <node x="-94.5" y="1780.5">it.unimol.stratego.app.exceptions.SchieramentoException</node>
+    <node x="-414.5" y="763.5">it.unimol.stratego.app.LogicaGioco.Partita</node>
+    <node x="-211.0" y="235.0">it.unimol.stratego.app.pedine.Generale</node>
+    <node x="207.5" y="1780.5">it.unimol.stratego.app.exceptions.MossaException</node>
+    <node x="1001.5" y="1596.0">it.unimol.stratego.GUI.InfoGiocatoriGUI</node>
+    <node x="-196.0" y="318.0">it.unimol.stratego.app.pedine.Comandante</node>
+    <node x="361.5" y="755.5">it.unimol.stratego.GUI.panels.InfoPanel</node>
+    <node x="-417.5" y="1303.5">it.unimol.stratego.app.LogicaGioco.Giocatore</node>
+    <node x="-162.75" y="401.0">it.unimol.stratego.app.pedine.Esploratore</node>
+    <node x="43.25" y="401.0">it.unimol.stratego.app.pedine.Tenente</node>
+    <node x="1386.5" y="-380.5">it.unimol.stratego.GUI.panels.TabellonePanel</node>
+    <node x="1133.0" y="1311.5">it.unimol.stratego.app.LogicaGioco.GestoreTurni</node>
+    <node x="58.0" y="318.0">it.unimol.stratego.app.pedine.Bandiera</node>
+    <node x="605.5" y="1295.5">it.unimol.stratego.GUI.panels.MenuPanel</node>
+    <node x="78.0" y="235.0">it.unimol.stratego.app.pedine.Bomba</node>
+    <node x="151.5" y="1295.5">it.unimol.stratego.GUI.gestioneRisorse.GestoreRisorse</node>
+    <node x="-2.0" y="-297.0">it.unimol.stratego.app.pedine.Pedina</node>
+    <node x="855.0" y="1307.5">it.unimol.stratego.app.EsitoScontro</node>
+    <node x="480.0" y="1604.0">it.unimol.stratego.ui.MenuPrincipale</node>
+    <node x="78.0" y="152.0">it.unimol.stratego.app.pedine.Capitano</node>
+    <node x="1775.0" y="1311.5">it.unimol.stratego.app.Colore</node>
+    <node x="73.5" y="1603.5">it.unimol.stratego.app.LogicaGioco.GestoreMosse</node>
+    <node x="1635.0" y="771.5">it.unimol.stratego.app.LogicaGioco.Tabellone</node>
+    <node x="899.0" y="-368.5">it.unimol.stratego.GUI.panels.SchieramentoPanel</node>
+    <node x="450.0" y="1780.5">it.unimol.stratego.app.exceptions.TurnoException</node>
+    <node x="303.0" y="-127.5">it.unimol.stratego.app.pedine.Spia</node>
+    <node x="-97.0" y="-380.0">it.unimol.stratego.app.pedine.Sergente</node>
+    <node x="1420.0" y="1595.5">it.unimol.stratego.app.LogicaGioco.Turno</node>
+    <node x="-419.5" y="1604.0">it.unimol.stratego.GUI.panels.MenuPrincipalePanel</node>
+    <node x="-427.0" y="1780.5">it.unimol.stratego.app.exceptions.MovimentoPedinaException</node>
+    <node x="1342.5" y="767.5">it.unimol.stratego.app.LogicaGioco.Mossa</node>
+    <node x="-279.0" y="-127.5">it.unimol.stratego.app.pedine.Artificiere</node>
+    <node x="1453.0" y="1311.5">it.unimol.stratego.GUI.panels.GiocoPanel</node>
+    <node x="-124.5" y="1303.5">it.unimol.stratego.GUI.MainFrame</node>
+    <node x="748.0" y="1604.0">it.unimol.stratego.GUI.gestioneRisorse.MisureImmaginiGUI</node>
+    <node x="700.5" y="755.5">it.unimol.stratego.ui.InterfacciaPartita</node>
+    <node x="-3.0" y="763.5">it.unimol.stratego.app.Controller</node>
+    <node x="1725.0" y="1608.0">it.unimol.stratego.Main</node>
+    <node x="1039.5" y="755.5">it.unimol.stratego.app.LogicaGioco.Casella</node>
+    <node x="-226.0" y="152.0">it.unimol.stratego.app.pedine.Maresciallo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="it.unimol.stratego.app.pedine.Spia" target="it.unimol.stratego.app.pedine.Pedina" relationship="GENERALIZATION">
+      <point x="0.0" y="-45.0" />
+      <point x="419.0" y="-307.0" />
+      <point x="-17.0" y="-307.0" />
+      <point x="-17.0" y="-82.5" />
+      <point x="-137.5" y="0.0" />
+    </edge>
+    <edge source="it.unimol.stratego.app.pedine.Bandiera" target="it.unimol.stratego.app.pedine.Pedina" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="137.5" y="308.0" />
+      <point x="63.0" y="308.0" />
+      <point x="63.0" y="142.0" />
+      <point x="-17.0" y="142.0" />
+      <point x="-17.0" y="-82.5" />
+      <point x="-137.5" y="0.0" />
+    </edge>
+    <edge source="it.unimol.stratego.app.pedine.Comandante" target="it.unimol.stratego.app.pedine.Pedina" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="-104.0" y="308.0" />
+      <point x="-37.0" y="308.0" />
+      <point x="-37.0" y="142.0" />
+      <point x="-17.0" y="142.0" />
+      <point x="-17.0" y="-82.5" />
+      <point x="-137.5" y="0.0" />
+    </edge>
+    <edge source="it.unimol.stratego.app.pedine.Esploratore" target="it.unimol.stratego.app.pedine.Pedina" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="-74.75" y="391.0" />
+      <point x="3.0" y="391.0" />
+      <point x="3.0" y="142.0" />
+      <point x="-17.0" y="142.0" />
+      <point x="-17.0" y="-82.5" />
+      <point x="-137.5" y="0.0" />
+    </edge>
+    <edge source="it.unimol.stratego.app.pedine.Artificiere" target="it.unimol.stratego.app.pedine.Pedina" relationship="GENERALIZATION">
+      <point x="116.0" y="0.0" />
+      <point x="-137.5" y="0.0" />
+    </edge>
+    <edge source="it.unimol.stratego.app.pedine.Bomba" target="it.unimol.stratego.app.pedine.Pedina" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="152.0" y="225.0" />
+      <point x="23.0" y="225.0" />
+      <point x="23.0" y="142.0" />
+      <point x="-17.0" y="142.0" />
+      <point x="-17.0" y="-82.5" />
+      <point x="-137.5" y="0.0" />
+    </edge>
+    <edge source="it.unimol.stratego.app.pedine.Generale" target="it.unimol.stratego.app.pedine.Pedina" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="-131.5" y="225.0" />
+      <point x="-17.0" y="225.0" />
+      <point x="-17.0" y="-82.5" />
+      <point x="-137.5" y="0.0" />
+    </edge>
+    <edge source="it.unimol.stratego.app.pedine.Capitano" target="it.unimol.stratego.app.pedine.Pedina" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="158.0" y="142.0" />
+      <point x="-17.0" y="142.0" />
+      <point x="-17.0" y="-82.5" />
+      <point x="-137.5" y="0.0" />
+    </edge>
+    <edge source="it.unimol.stratego.app.pedine.Maresciallo" target="it.unimol.stratego.app.pedine.Pedina" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="-139.0" y="142.0" />
+      <point x="-17.0" y="142.0" />
+      <point x="-17.0" y="-82.5" />
+      <point x="-137.5" y="0.0" />
+    </edge>
+    <edge source="it.unimol.stratego.app.pedine.Sergente" target="it.unimol.stratego.app.pedine.Pedina" relationship="GENERALIZATION">
+      <point x="0.0" y="31.5" />
+      <point x="-17.0" y="-82.5" />
+      <point x="-137.5" y="0.0" />
+    </edge>
+    <edge source="it.unimol.stratego.app.pedine.Tenente" target="it.unimol.stratego.app.pedine.Pedina" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="120.75" y="391.0" />
+      <point x="43.0" y="391.0" />
+      <point x="43.0" y="142.0" />
+      <point x="-17.0" y="142.0" />
+      <point x="-17.0" y="-82.5" />
+      <point x="-137.5" y="0.0" />
+    </edge>
+    <edge source="it.unimol.stratego.app.pedine.Colonnello" target="it.unimol.stratego.app.pedine.Pedina" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="-341.5" y="142.0" />
+      <point x="-17.0" y="142.0" />
+      <point x="-17.0" y="-82.5" />
+      <point x="-137.5" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Orthogonal Groups" zoom="0.4629376367614881" showDependencies="false" x="367.97655096011795" y="-274.0354135893649" />
+  <SelectedNodes>
+    <node>it.unimol.stratego.app.LogicaGioco.Partita</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
